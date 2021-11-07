@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ContactDetailsComponent } from './components/contact-details/contact-details.component';
 import { AddContactsComponent } from './components/add-contacts/add-contacts.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
