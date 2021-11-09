@@ -1,1 +1,42 @@
-<p>contacts-details works!</p>
+<app-header></app-header>
+<div class="main-content">
+    <div class="header-content">
+        <div class="person-detail-text">Person Details</div>
+        <div class="add-button">
+            <button class="add-button" routerLink="/add" routerLinkActive="active"> +Add User</button>
+        </div>
+    </div>
+
+    <div class="table-main">
+        <table id="table-display" class="table">
+            <tr>
+                <th></th>
+                <th>Full Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Zip Code</th>
+                <th>Phone Number</th>
+                <th></th>
+            </tr>
+            <tr *ngFor="let contacts of contactDetails">
+
+                <td>{{contacts.name}}</td>
+                <td>{{contacts.address}}</td>
+                <td>{{contacts.city}}</td>
+                <td>{{contacts.state}}</td>
+                <td>{{contacts.zip}}</td>
+                <td>{{contacts.phoneno}}</td>
+
+                <td>
+                    <button mat-button>
+                        <mat-icon inline=true>Delete</mat-icon>
+                      </button>
+                    <button mat-button>
+                       <mat-icon inline=true>edit</mat-icon>
+                   </button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
