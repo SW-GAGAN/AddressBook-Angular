@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # AddressbookFrontend
+=======
+# AddressBook
+>>>>>>> c70297a54ee7a657252f91b61ccbc7a8c2f8f3b5
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 

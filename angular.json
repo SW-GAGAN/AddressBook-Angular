@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "addressbook-frontend": {
+=======
+    "Address-book": {
+>>>>>>> c70297a54ee7a657252f91b61ccbc7a8c2f8f3b5
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +21,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/addressbook-frontend",
+=======
+            "outputPath": "dist/Address-book",
+>>>>>>> c70297a54ee7a657252f91b61ccbc7a8c2f8f3b5
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +77,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "addressbook-frontend:build:production"
             },
             "development": {
               "browserTarget": "addressbook-frontend:build:development"
+=======
+              "browserTarget": "Address-book:build:production"
+            },
+            "development": {
+              "browserTarget": "Address-book:build:development"
+>>>>>>> c70297a54ee7a657252f91b61ccbc7a8c2f8f3b5
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +95,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "addressbook-frontend:build"
+=======
+            "browserTarget": "Address-book:build"
+>>>>>>> c70297a54ee7a657252f91b61ccbc7a8c2f8f3b5
           }
         },
         "test": {
@@ -104,5 +123,9 @@
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "addressbook-frontend"
+=======
+  "defaultProject": "Address-book"
+>>>>>>> c70297a54ee7a657252f91b61ccbc7a8c2f8f3b5
 }

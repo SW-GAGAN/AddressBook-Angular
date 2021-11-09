@@ -25,7 +25,11 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
+<<<<<<< HEAD
       dir: require('path').join(__dirname, './coverage/addressbook-frontend'),
+=======
+      dir: require('path').join(__dirname, './coverage/Address-book'),
+>>>>>>> c70297a54ee7a657252f91b61ccbc7a8c2f8f3b5
       subdir: '.',
       reporters: [
         { type: 'html' },
